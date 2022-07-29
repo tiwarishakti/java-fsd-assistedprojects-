@@ -1,4 +1,5 @@
 package collections;
+
 import java.util.*;
 
 public class collectionsassiested {
@@ -9,22 +10,24 @@ public class collectionsassiested {
 		city.add("Bangalore");
 		city.add("Delhi");
 		System.out.println(city);
-		
+
 		System.out.println("\n");
 		System.out.println("Vector");
-		Vector<Integer> vec =  new Vector();
+		Vector<Integer> vec = new Vector();
 		vec.addElement(15);
 		vec.addElement(30);
 		System.out.println(vec);
-		
+
 		System.out.println("\n");
 		System.out.println("LinkedList");
 		LinkedList<String> names = new LinkedList<String>();
 		names.add("Alex");
 		names.add("jhon");
 		Iterator<String> itr = names.iterator();
-		while(itr.hasNext()) {System.out.println(itr.next());}
-		
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+
 		System.out.println("\n");
 		System.out.println("HashSet");
 		HashSet<Integer> set = new HashSet<Integer>();
@@ -33,7 +36,7 @@ public class collectionsassiested {
 		set.add(102);
 		set.add(104);
 		System.out.println(set);
-		
+
 		System.out.println("\n");
 		System.out.println("LinkedHashSet");
 		LinkedHashSet<Integer> set2 = new LinkedHashSet<Integer>();
